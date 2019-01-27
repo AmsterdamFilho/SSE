@@ -13,7 +13,7 @@ Using this the application receives a new stock price update and dispatches it t
 
 It generates openapi documentation automatically in the endpoint /openapi.json.
 
-To execute the application, just run SpringBootApp main method. To test it using curl:
+To execute the application, just run SpringBootApp main method after running maven compile command. To test it using curl:
 
 Use the command below to get in real time every stock update for Apple (this command get be used multiple times 
 to simulate a lot of connected clients):

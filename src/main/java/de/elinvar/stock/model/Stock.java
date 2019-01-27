@@ -1,0 +1,32 @@
+package de.elinvar.stock.model;
+
+import java.math.BigDecimal;
+
+/**
+ * @author Amsterdam Luís
+ */
+public class Stock
+{
+    private String     name;
+    private BigDecimal price;
+
+    public String getName ()
+    {
+        return name;
+    }
+
+    public void setName (String name)
+    {
+        this.name = name;
+    }
+
+    public BigDecimal getPrice ()
+    {
+        return price;
+    }
+
+    public void setPrice (BigDecimal price)
+    {
+        this.price = price;
+    }
+}

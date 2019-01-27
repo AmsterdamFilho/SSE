@@ -1,0 +1,21 @@
+﻿# IntelliJ files
+*.iml
+.idea
+
+# Eclipse files
+*.classpath
+*.project
+*.settings/
+*.factorypath
+.tern-project
+
+# Temp files
+*~*
+*.vpp.bak*
+*.vpp.lck*
+
+# OS files
+.DS_Store
+
+# Compiled files
+target/
